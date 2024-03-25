@@ -2,15 +2,16 @@
 #### Date, 2024/03/22
 
 #### By *Brian Maitho*
-
 ## studentgrad.js
 ## Description
-It's a program that prompts the user to input student marks with an input range of zero to a hundred and an output with the correct grade 
+It's a program that prompts the user to input student marks with an iput range of zero to a hundred and an output with the correct grade 
 
 ## netSalaryCalculator.js
-##It's a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. It also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+## Description
+It's a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits.It also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 
 ## speedDetector.js
+## Description
 It's a program that takes as input the speed of a car e.g 80. It checks to see if the car traveled at the recommended speed of 70 if not it calculates demerits.
 ## Installation
 You use git clone to be able to download the documents in the GitHub
@@ -37,3 +38,4 @@ github.com/bmaitho
 ### License
 The content of this site is licensed under the MIT license
 Copyright (c) 2018.
+
