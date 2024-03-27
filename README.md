@@ -62,9 +62,9 @@ Note that the parameters used to calculate PAYE, NHIF, and NSSF were those in ef
 4. calculated the NHIF deductions based on the individuals gross salary 
 5. Defined the constant rate to be 0.06
 6. calculated NSSF deductions
-7. calcuated net salary 
+7. calculated net salary 
 8. console.logged net salary 
-9. output asks an individual to input their basic salary and benefits then shows them their net salary  
+9. output asks an individual to input their basic salary and benefits then shows them their net salary
 10. for example 
 11. Enter basic salary:200000
 12. Enter benefits:500
