@@ -23,7 +23,7 @@ Note that these steps are general and may vary depending on your preference and 
 ## Description
 It's a program that prompts the user to input student marks with an input range of zero to a hundred and an output with the correct grade using the scale: Grading Scale: A > 79, B - 60 to 79, C - 59 to 49, D - 40 to 49, E - less 40.
 
-##Implementation 
+## Implementation 
 1. Prompt the user to enter the student's marks.
 2. Receives user input 
 3. A function is used to determine the letter grade based on the grading scale provided above.
@@ -53,9 +53,22 @@ License suspended
 
 ## netSalaryCalculator.js
 ## Description
-It's a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. It also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+It's a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits .It also calculates the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 Note that the parameters used to calculate PAYE, NHIF, and NSSF were those in effect on March 2024.
-## implimentation 
+## implementation
+1. The program runs a function that calculates the net salary of an individual 
+2. I first created tax brackets which allows the function to calculate the individuals tax based on the bracket they fall under 
+3. Calculated gross salary and ensured the taxable income does not exceed the range defined by taxbrackets
+4. calculated the NHIF deductions based on the individuals gross salary 
+5. Defined the constant rate to be 0.06
+6. calculated NSSF deductions
+7. calcuated net salary 
+8. console.logged net salary 
+9. output asks an individual to input their basic salary and benefits then shows them their net salary  
+10. for example 
+11. Enter basic salary:200000
+12. Enter benefits:500
+13. Net Salary 184070.32
 ## Installation
 
 You use git clone to be able to download the documents in the GitHub
